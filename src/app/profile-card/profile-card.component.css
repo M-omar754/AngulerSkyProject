@@ -1,0 +1,59 @@
+/* Profile card container */
+.container.p-con {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    padding: 24px;
+    margin-top: 50px;
+}
+
+/* Main content column with image and text */
+.col-sm-8.d-flex.align-items-center.flex-column.flex-sm-row .profile-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+/* Text container */
+.text-container {
+    margin-left: 16px;
+}
+
+/* Button column */
+.col-12.col-sm-4.text-center.text-sm-end.mt-3.mt-sm-0 .btn.custom-btn {
+    font-size: 1rem;
+    padding-top: 0.01rem;
+    padding-bottom: 0.01rem;
+    width: 200px;
+    background-color: #247f3e;
+    border-color: #247f3e;
+    border-width: 2px;
+}
+.col-12.col-sm-4.text-center.text-sm-end.mt-3.mt-sm-0 .btn.custom-btn:hover {
+    background-color: #ffffff;
+    border-color: #247f3e;
+    border-width: 2px;
+    box-shadow: none;
+    color: #247f3e;
+}
+
+/* Icons and text columns */
+.col-6.col-sm.d-flex.align-items-center .icon {
+    max-width: 72px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.col-6.col-sm.d-flex.align-items-center .text-container p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+.col-6.col-sm.d-flex.align-items-center .text-container p strong {
+    display: block;
+    font-size: 16px;
+}
+.col-6.col-sm.d-flex.align-items-center .text-container p br {
+    content: "";
+    display: block;
+    margin: 4px 0;
+}

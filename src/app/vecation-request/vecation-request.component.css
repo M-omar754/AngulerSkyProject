@@ -1,0 +1,35 @@
+.request-icon2 {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.view-more-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+
+.view-more-btn {
+    color: #247f3e; 
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    margin: 10px;
+}
+
+
+.view-more-btn:hover {
+    color: #1a5d2c; 
+    text-decoration: none;
+}
+.btn-outline-success {
+    border-color: #247f3e;
+    color: #247f3e;
+}
+.btn-outline-success:hover {
+    background-color: #247f3e;
+    color: #fff;
+}

@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-12 col-sm-8 text-center text-sm-start">
+            <h2>Welcome Back Hamada! Here are your latest updates.</h2>
+        </div>
+        <div class="col-12 col-sm-4 text-center text-sm-end mt-3 mt-sm-0">
+            <button type="button" class="btn btn-primary btn-lg custom-btn">New Request</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Profile Card Row -->
+    <div class="row align-items-center mb-4">
+      <div class="col-md-8">
+        <app-home-card/>
+      </div>
+
+      <!-- Requests Section -->
+      <div class="col-12 col-md-2 mb-3">
+        <app-vecation-card label="Vacation Requests"[count]="10"icon="/material/request.png"></app-vecation-card>
+      </div>
+      <div class="col-12 col-md-2 mb-3">
+       <app-vecation-card label="Leave Requests"[count]="10"icon="/material/request.png"></app-vecation-card>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <app-carousel></app-carousel>
+  </div>
+  <div class="container p-con">
+    <app-vecation-request></app-vecation-request>
+  </div>
+<div class="container"></div>

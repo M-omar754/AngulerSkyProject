@@ -1,0 +1,33 @@
+.vacation-card {
+    background-color: #247f3e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    
+  }
+  .p-con {
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    
+}
+  .vacation-icon {
+    width: 75px;
+    height: 75px;
+    margin-right: 15px;
+  }
+  
+  .vacation-content h2 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .vacation-content p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+  }
+  

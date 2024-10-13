@@ -1,0 +1,22 @@
+
+  .carousel {
+    height: 240px; 
+  }
+  
+  .carousel-inner {
+    height: 100%; /* Ensure inner content takes full height */
+  }
+  
+  .carousel-item {
+    height: 100%; /* Ensure each carousel item takes full height */
+    display: flex; /* Use flexbox to center the image */
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+  }
+  
+  .carousel-item img {
+    max-height: 100%; /* Ensure the image fits within the carousel height */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    width: auto; /* Maintain the aspect ratio */
+  }
+  

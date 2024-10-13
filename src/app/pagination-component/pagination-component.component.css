@@ -1,0 +1,35 @@
+.pagination {
+    margin: 20px 0;
+  }
+  
+  .page-item {
+    margin: 0 5px; /* Add spacing between items */
+  }
+  
+  .page-link {
+    background-color: #247f3e; /* Your button color */
+    color: #ffffff; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for the buttons */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effects */
+  }
+  
+  .page-link:hover {
+    background-color: #ffffff; /* Hover background color */
+    color: #247f3e; /* Hover text color */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    border: 2px solid #247f3e; /* Thicker border on hover */
+  }
+  
+  .page-item.active .page-link {
+    background-color: #247f3e; /* Active page background */
+    color: #ffffff; /* Active page text color */
+    border: 2px solid #ffffff; /* Optional border for active state */
+  }
+  
+  .page-item.disabled .page-link {
+    background-color: #f0f0f0; /* Disabled background */
+    color: #ccc; /* Disabled text color */
+    pointer-events: none; /* Disable click events */
+  }
+  

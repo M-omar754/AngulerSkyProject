@@ -1,0 +1,36 @@
+<div class="row align-items-center justify-content-between" >
+    <div class="col-auto d-flex align-items-center">
+        <img src="material/request1.png" alt="Request Icon" class="request-icon2">
+        <h5 class="ml-2">Vacation Requests</h5>
+    </div>
+    <div class="col-auto">
+        <app-search-bar></app-search-bar>
+    </div>
+    <hr>
+    <!-- Vacation Cards Row -->
+    <div class="col-12">
+        <div class="row" style="margin-bottom:0 ;">
+            <!-- First Card -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <app-request-card [avatar]="users[0].avatar" [name]="users[0].name" [submission]="users[0].submission" [duration]="users[0].duration" [salary]="users[0].salary"></app-request-card>
+            </div>
+            <!-- Second Card-->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <app-request-card [avatar]="users[1].avatar" [name]="users[1].name" [submission]="users[1].submission" [duration]="users[1].duration" [salary]="users[1].salary"></app-request-card>
+            </div>
+
+            <!-- Third Card -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <app-request-card [avatar]="users[2].avatar" [name]="users[2].name" [submission]="users[2].submission" [duration]="users[2].duration" [salary]="users[2].salary"></app-request-card>
+            </div>
+            <!--Fourth Card-->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <app-request-card [avatar]="users[3].avatar" [name]="users[3].name" [submission]="users[3].submission" [duration]="users[3].duration" [salary]="users[3].salary" ></app-request-card>
+            </div>
+            <div class="view-more-container">
+                <a routerLink="/vecations-page" routerLinkActive="router-link-active"  class="view-more-btn">View More ></a>
+            </div>
+            
+        </div>
+    </div>
+</div>

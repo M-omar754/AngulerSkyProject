@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    font-weight: bold;
+}
+/* Container Styling */
+.container.p-con {
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    padding: 24px;
+}
+/* Row Styling */
+.row.p-row {
+    margin-bottom: 0;
+}
+/* Image Styling */
+.request-icon2 {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+/* Header Styling */
+.ml-2 {
+    margin-left: 0.5rem;
+}
+/* Button Container */
+.view-more-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.view-more-btn {
+    color: #247f3e;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    margin: 10px;
+}
+.view-more-btn:hover {
+    color: #1a5d2c;
+    text-decoration: none;
+}
+/* Profile Image */
+.profile-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+/* Vacation Card Specific */
+.vacation-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.vacation-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.vacation-card h5 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+.vacation-card .card-text {
+    color: #666;
+}
+.vacation-card .btn {
+    width: 48%;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+/* Media Queries */
+@media (min-width: 768px) {
+    .card-body {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 576px) {
+    .col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* Ensure proper layout of vacation cards */
+.veacation-page .card-body {
+    display: flex;
+    flex-direction: column;
+}

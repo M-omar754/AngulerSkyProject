@@ -1,0 +1,26 @@
+.custom-btn {
+    font-size: 1rem;
+    padding-top: 0.01rem;
+    padding-bottom: 0.01rem;
+    width: 200px;
+    background-color: #247f3e;
+    border-color: #247f3e;
+    border-width: 2px;
+}
+
+.custom-btn:hover {
+    background-color: #ffffff;
+    border-color: #247f3e;
+    border-width: 2px;
+    box-shadow: none;
+    color: #247f3e;
+}
+.container{
+    margin-top: 50px;
+}
+.p-con {
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    
+}

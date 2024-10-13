@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid #ddd; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card-title {
+    font-size: 1.25rem; 
+    font-weight: bold; 
+    color: #000; 
+    margin-bottom: 0.5rem; 
+}
+
+.card-subtitle {
+    font-size: 1rem; 
+    color: #666; 
+    margin-bottom: 1rem; 
+}
+
+.card-text {
+    font-size: 1rem; 
+    color: #666; 
+}
+
+.card hr {
+    border: 0;
+}
+.p-3 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.p-3 h5 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}

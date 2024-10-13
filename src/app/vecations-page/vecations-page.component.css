@@ -1,0 +1,64 @@
+.container{
+    margin-top: 36px;
+}
+.row.align-items-center.p-row {
+    margin-bottom: 0;
+}
+.col-auto.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+}
+.request-icon2 {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+.ml-2 {
+    margin-left: 0.5rem;
+}
+.ms-auto {
+    margin-left: auto;
+}
+ 
+.vacation-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .vacation-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .vacation-card h5 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  .vacation-card .card-text {
+    color: #666;
+  }
+  .vacation-card .btn {
+    width: 48%;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .pagination .page-link {
+    color: #247f3e;
+    border: 1px solid #247f3e;
+  }
+  .pagination .page-link:hover {
+    color: white;
+    background-color: #247f3e;
+  }
+  .pagination .page-item.disabled .page-link {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  

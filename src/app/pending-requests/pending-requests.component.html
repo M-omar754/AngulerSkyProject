@@ -1,0 +1,28 @@
+<div class="container p-con" >
+    <div class="row p-row" >
+        <div class="col-auto d-flex align-items-center">
+            <img src="material/request1.png" alt="Request Icon" class="request-icon2">
+            <h5 class="ml-2">Pending Requests</h5>
+        </div>
+    </div>
+
+<hr style="border: 0;">
+
+    <div class="row p-row">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <app-pending-card></app-pending-card>
+        </div>
+    <!-- Card 2 -->
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <app-pending-card></app-pending-card>
+    </div>
+
+        <!-- Container for View More Button -->
+        <div class="col-12 view-more-wrapper">
+            <div class="view-more-container">
+                <a routerLink="/vecations-page" routerLinkActive="router-link-active"  class="view-more-btn">View More ></a>
+            </div>
+        </div>
+    </div>
+</div>

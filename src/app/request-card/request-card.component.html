@@ -1,0 +1,13 @@
+<div class="card vacation-card">
+    <img [src]="imagePath" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="name">
+    <div class="card-body1 text-center">
+        <h5 class="card-title">{{name}}</h5>
+        <p class="card-text">Submitted on:<strong> {{submission | date: 'd/M/yyyy' }}</strong></p>
+        <p class="card-text">Duration: <strong>2 Weeks (1/4/2023 - 14/4/2023)</strong></p>
+        <p class="card-text">Salary:<strong> {{salary}}</strong></p>
+        <div class="d-flex justify-content-between">
+            <button class="btn btn-outline-success">Decline</button>
+            <button class="btn btn-success">Approve</button>
+        </div>
+    </div>
+</div>
